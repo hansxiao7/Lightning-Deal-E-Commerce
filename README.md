@@ -11,3 +11,4 @@
     - Cookie-session is used to check whether it is logged in or out.
   - Configure the Redis:
     - Instead of using SpringSession, user information is stored directly in Redis.
+    - RedisTemplate + RedisConnectionFactory are used;
