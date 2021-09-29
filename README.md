@@ -12,3 +12,5 @@
   - Configure the Redis:
     - Instead of using SpringSession, user information is stored directly in Redis.
     - RedisTemplate + RedisConnectionFactory are used;
+- 9/29/2021
+  - Use WebMvcConfigurer to customerize the handler for cookie session to get user info;
