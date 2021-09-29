@@ -16,6 +16,6 @@
   - Finished the front pages and order services;
   - Run load test wit JMeter;
   - Use Redis to save Web Cache: if the web is cached in Redis, then load directly; else use ThymeleafViewResolver to create the static webs and store to Redis;
-  - For 5000 threads x 10 loops:
+  - For 3000 threads x 10 loops:
     - Before cache: QPS 1360.2;
-    - After cache: QPS 6037;
+    - After cache: QPS 2342;
