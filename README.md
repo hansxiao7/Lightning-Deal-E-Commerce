@@ -9,3 +9,4 @@
     - Use @ControllerAdvice + ExceptionHandler to handle login error;
     - Spring Boot Starter Validation is used to valid the form inputs for login.
     - Cookie-session is used to check whether it is logged in or out.
+  - Configure the SpringSession + Redis;
