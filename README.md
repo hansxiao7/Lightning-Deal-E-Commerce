@@ -15,4 +15,4 @@
   - Use WebMvcConfigurer to customerize the handler for cookie session to get user info;
   - Finished the front pages and order services;
   - Run load test wit JMeter;
-  - Use Redis to save Web Cache;
+  - Use Redis to save Web Cache: if the web is cached in Redis, then load directly; else use ThymeleafViewResolver to create the static webs and store to Redis.
