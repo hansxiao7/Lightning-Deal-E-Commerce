@@ -14,3 +14,4 @@
 - 9/29/2021
   - Use WebMvcConfigurer to customerize the handler for cookie session to get user info;
   - Finished the front pages and order services;
+  - Run load test wit JMeter;
